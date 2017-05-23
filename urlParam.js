@@ -1,4 +1,7 @@
-define(function() {
+(function(window,global){
+	typeof exports === 'object'&& typeof module !=undefined?module.exports = factory():
+	typeof define === 'function'&&define.amd?define(global()) : (global.getParam=global());
+}(this,function(){
 	function getParam() {
 		var getUrl =  location.href;
 		var reg = /[^\?]([\w]+[\=][\d]+)([\&]+([\w]+[\=][\d]+))*/ig;
@@ -25,4 +28,4 @@ define(function() {
 	return {
 		getParam : getParam
 	};
-})
+}));
