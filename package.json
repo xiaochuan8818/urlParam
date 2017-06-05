@@ -1,0 +1,22 @@
+{
+  "name": "xc-urlparam",
+  "version": "1.0.0",
+  "description": "this is a url-param resolve plugin",
+  "main": "urlParam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaochuan8818/urlParam.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "xiaochuan8818",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaochuan8818/urlParam/issues"
+  },
+  "homepage": "https://github.com/xiaochuan8818/urlParam#readme"
+}

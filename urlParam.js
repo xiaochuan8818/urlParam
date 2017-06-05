@@ -1,5 +1,5 @@
 (function(window,global){
-	typeof exports === 'object'&& typeof module !=undefined?module.exports = factory():
+	typeof exports === 'object'&& typeof module !=undefined?module.exports = global():
 	typeof define === 'function'&&define.amd?define(global()) : (window.getParam=global());
 }(this,function(){
 	function getParam(name) {
