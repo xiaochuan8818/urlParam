@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+console.log('modules is run!');
 (function(window,global){
 	typeof exports === 'object'&& typeof module !=undefined?module.exports = global():
 	typeof define === 'function'&&define.amd?define(global()) : (window.getParam=global());

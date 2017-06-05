@@ -1,6 +1,6 @@
 {
   "name": "xc-urlparam",
-  "version": "1.0.0",
+  "version": "1.0.10",
   "description": "this is a url-param resolve plugin",
   "main": "urlParam.js",
   "scripts": {
@@ -13,6 +13,9 @@
   "keywords": [
     "url"
   ],
+  "bin":{
+    "url" : "./urlParam.js"
+  },
   "author": "xiaochuan8818",
   "license": "ISC",
   "bugs": {
